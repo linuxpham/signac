@@ -312,7 +312,6 @@ ReadDelim <- function(mat.path, sep = ",", header = TRUE) {
 #' @return Returns a sparse matrix with rows and columns labeled. If multiple
 #' genomes are present, returns a list of sparse matrices (one per genome).
 #'
-#' @importFrom hdf5r H5File
 #' @importFrom Matrix sparseMatrix
 #'
 Read10XH5 <- function(filename, use.names = TRUE, unique.features = TRUE) {
